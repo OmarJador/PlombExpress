@@ -8,7 +8,7 @@
 
 <body>
 <header class="site-header">
-    <nav class="navbar container" aria-label="Navigation principale">
+    <nav class="navbar">
         <a href="index.html" class="navbar__brand">
             <span class="navbar__logo"><img src="assets/icons/droplet.png" alt=""></span>
             <span class="navbar__name">Plomb’<span class="navbar__name-highlight">Express</span></span>
@@ -30,24 +30,26 @@
         <a href="inscription.html" class="navbar__cta">Demander un devis</a>
     </nav>
 </header>
-<main class="section1">
-    <div class="section1__container">
-        <div class="section1__text">
-            <div class="section1__text--gps"><span class="section1__text--icon"><img src="assets/icons/map-pin.png" alt=""></span> Votre artisan à Lyon et alentours</div>
-            <div class="section1__text--title">Un plombier de confiance près de chez vous</div>
-            <div class="section1__text--description">Chez Plomb’Express, nous prenons soin de votre confort. Dépannage, installation ou fuite : nos artisans vous accompagnent avec réactivité, transparence et un travail soigné.</div>
-            <div class="section1__actions">
-                <a href="#" class="section1__text--orange">Demander un devis →</a>
-                <a href="#" class="section1__text--white">Nos services</a>
+<main>
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <p class="hero__location"><span class="hero__location-icon"><img src="assets/icons/map-pin.png" alt=""></span>Votre artisan à Lyon et alentours</p>
+                <h1 class="hero__title">Un plombier de confiance près de chez vous</h1>
+                <p class="hero__description">Chez Plomb’Express, nous prenons soin de votre confort. Dépannage, installation ou fuite : nos artisans vous accompagnent avec réactivité, transparence et un travail soigné.</p>
+                <div class="hero__actions">
+                    <a href="#" class="hero__button hero__button--primary">Demander un devis →</a>
+                    <a href="#" class="hero__button hero__button--secondary">Nos services</a>
+                </div>
             </div>
+            <div class="hero__visual"><img src="assets/images/homme.jpg" alt="Plombier professionnel dans une salle de bain"></div>
         </div>
-        <div class="section1__image"><img src="assets/images/homme.jpg" alt="Plombier professionnel dans une salle de bain"></div>
-    </div>
-    <div class="section1__perks">
-        <div><img src="assets/icons/clock-3.png" alt="">Intervention rapide 7j/7</div>
-        <div><img src="assets/icons/shield-check.png" alt="">Travail garanti</div>
-        <div><img src="assets/icons/badge-check.png" alt="">Professionnels qualifiés</div>
-    </div>
+        <div class="hero__benefits">
+            <div class="hero__benefit"><span class="hero__benefit-icon"><img src="assets/icons/clock-3.png" alt=""></span>Intervention rapide 7j/7</div>
+            <div class="hero__benefit"><span class="hero__benefit-icon"><img src="assets/icons/shield-check.png" alt=""></span>Travail garanti</div>
+            <div class="hero__benefit"><span class="hero__benefit-icon"><img src="assets/icons/badge-check.png" alt=""></span>Professionnels qualifiés</div>
+        </div>
+    </section>
 </main>
 </body>
 </html>
